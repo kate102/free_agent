@@ -6,3 +6,5 @@ gem 'test-unit'
 
 # Ruby 2.6.x requires the `irb` gem to be in the Gemfile
 gem 'irb' if defined?(RUBY_VERSION) && RUBY_VERSION.to_f >= 2.6
+gem 'rake'
+gem 'rspec', '3.8.0'
