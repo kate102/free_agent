@@ -22,13 +22,15 @@ The currencies may not necessarily be to or from Euro
 The data may not always come in this format
 
 
-## Initial Plan
-Get RSpec up and running with a dummy test
-Test opening the file
-Test reading the file & populating some searchable structure (db table ideally but possibly not in a couple of hours)
-Test retrieving an exchange rate from Euros
-Test retrieving an exchange rate via Euros
-Test a missing currency
+## Plan
+1. Get RSpec up and running with a dummy test
+2. Test opening the file
+3. Test reading the file & populating some searchable structure 
+4. Create the db table
+5. Populate the db table - Note that this must be configurable
+6. Test retrieving an exchange rate from Euros
+7. Test retrieving an exchange rate via Euros
+8. Test a missing currency
 
 
 
