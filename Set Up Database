@@ -1,0 +1,12 @@
+CREATE DATABASE free_agent_tech_test;
+
+\c free_agent_tech_test;
+
+CREATE TABLE currency_exchange_table_from_euro
+(RateDate DATE  NOT NULL,
+FromCurency CHAR(3) NOT NULL,
+ExRate     DECIMAL(9,2) NOT NULL
+);
+
+CREATE  INDEX rate_to_euro_on_date
+ON currency_exchange_table_from_euro(RateDate,FromCurency);

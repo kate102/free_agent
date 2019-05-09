@@ -1,0 +1,5 @@
+Update/create the Gem File
+gem install bundler:2.0.1
+bundle install
+rspec --init
+touch app.rb
